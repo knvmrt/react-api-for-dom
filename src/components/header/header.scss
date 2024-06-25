@@ -1,0 +1,30 @@
+.header {
+     width: 100%;
+     height: auto;
+     padding: 10px 0;
+
+     .boxes {
+          
+
+          .logo {
+               width: 17%;
+
+               img {
+                    width: 100%;
+                    filter: grayscale(100%);
+               }
+          }
+
+          .nav-bar {
+               ul {
+                    li {
+                         padding: 10px;
+
+                         .active {
+                              color: rgb(255, 196, 0);
+                         }
+                    }
+               }
+          }
+     }
+}
